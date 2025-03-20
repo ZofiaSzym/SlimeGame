@@ -30,3 +30,26 @@
 *.exe
 *.out
 *.app
+
+.idea/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+CMakeLists.txt.user
+CMakeLists.txt.*
+cmake_install.cmake
+Makefile
+
+
+# Ignore test and debug files
+Testing/
+CTestTestfile.cmake
+
+# Ignore CLion-generated Run/Debug configurations
+run/
+out/
+
+# Ignore dependency-related files
+vcpkg_installed/
+conanbuildinfo.*
+conan.lock
